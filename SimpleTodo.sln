@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTodo", "SimpleTodo\SimpleTodo.csproj", "{E5E94644-B0EA-442D-BA5D-90C09BB5180F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleTodo.Droid", "SimpleTodo.Droid\SimpleTodo.Droid.csproj", "{B68C741E-B9A0-4686-89A3-7AFC4F4CEC0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{E5E94644-B0EA-442D-BA5D-90C09BB5180F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5E94644-B0EA-442D-BA5D-90C09BB5180F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5E94644-B0EA-442D-BA5D-90C09BB5180F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68C741E-B9A0-4686-89A3-7AFC4F4CEC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68C741E-B9A0-4686-89A3-7AFC4F4CEC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68C741E-B9A0-4686-89A3-7AFC4F4CEC0D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B68C741E-B9A0-4686-89A3-7AFC4F4CEC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68C741E-B9A0-4686-89A3-7AFC4F4CEC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68C741E-B9A0-4686-89A3-7AFC4F4CEC0D}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
