@@ -5,16 +5,20 @@
     android:layout_height="match_parent"
     android:padding="@dimen/viewPadding">
 
-  <ListView
+  <EditText
+    android:hint="Enter title"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_weight="8"
-    android:id="@+id/tasksListView"/>
-
+    android:id="@+id/titleEditText"/>
+  <EditText
+    android:hint="Enter description"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/descriptionEditText"/>
   <Button
-    android:text="ADD TASK"
-    android:layout_width="match_parent"
+    android:text="Add"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:id="@+id/addTaskButton"/>
+    android:id="@+id/addButton"/>
   
 </LinearLayout>

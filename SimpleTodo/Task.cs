@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using SQLite;
 
 namespace SimpleTodo
@@ -15,6 +16,15 @@ namespace SimpleTodo
         {
             Title = title;
             Description = description;
+        }
+
+        public void Store()
+        {
+            var connection = new SQLiteConnection(Path.Combine(
+                System.Environment.GetFolderPath(Environment.SpecialFolder.Personal), "tasks.db3"));
+            connection.CreateTable<Task>();
+            connection.Insert(this);
+            connection.Close();
         }
     }
 }
