@@ -4,7 +4,7 @@ using SQLite;
 
 namespace SimpleTodo
 {
-    class Task
+    public class Task
     {
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
